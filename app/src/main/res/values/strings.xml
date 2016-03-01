@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Proyecto-a14felipecm</string>
+
+
+    <!--Strings menu-->
+    <string name="action_settings">Settings</string>
+    <string name="action_youtube">Youtube</string>
+    <string name="action_facebook">Faebook</string>
+    <string name="action_sair">Sair</string>
+
+
+    <!--Strings Activitys-->
+    <string name="act_centro">O centro</string>
+    <string name="act_oferta">Oferta Educativa</string>
+    <string name="act_alumno">Alumno</string>
+    <string name="act_contacto">Contacto</string>
+    <string name="title_activity_centro">Centro</string>
+
+    <!--Strings contacto-->
+    <string name="contacto_direccion">Dirección:\n Rúa de San Clemente</string>
+    <string name="contacto_email">Correo Electrónico: \n info@iessanclemente.net</string>
+    <string name="contacto_telefono">Teléfono:\n981556556</string>
+    <string name="contacto_fax">Fax:\n981818181</string>
+
+
+    <!--String activity O Centro-->
+    <string name="tab1">Historia</string>
+    <string name="tab2">Horarios</string>
+    <string name="historia_largo">
+    \tA historia do noso IES remóntase ao ano 1948, cando unha viúva compostelá doa uns terreos situados no campo de San Clemente á Igrexa, coa finalidade de que neles se construíse un centro para acoller os nenos pobres da cidade e proporcionarlles uns coñecementos profesionais que lles permitisen no futuro desempeñar un oficio. A doazón realizouse por motivos píos e a Igrexa tutelou o desenvolvemento das obras de edificación a través de D. Fernando Quiroga Palacios.\n\n
+    \tAínda que o edificio puido estar rematado antes, as súas actividades non comezaron ata o ano 1953 que, curiosamente, coincide tamén co momento en que o Papa Pío XII designa cardeal a Don Fernando Quiroga Palacios.\n\n
+    \tA historia vén demostrar que o centro sempre estivo vinculado a ensinanzas profesionais: foi escola de traballo, escola de artes, escola de mestría industrial, centro de formación profesional…; non foi ata a última década do século XX cando, coa reforma educativa formulada na LOXSE, pasou a denominarse IES e, xa no século XXI, se introduciron as ensinanzas non estritamente profesionais.\n\n
+    \tO edificio forma parte, estrutural e arquitectonicamente, do conxunto histórico da cidade. Está distribuído en tres plantas e un soto; posúe seis aulas de informática, cinco aulas para ESA e BAC (adultos), unha sala de usos múltiples (vídeo, conferencias, etc.), un laboratorio, unha biblioteca e outras dependencias dedicadas á administración e servizos.\n\n
+    \tO centro sempre foi de titularidade pública e, polo tanto, depende da Consellería de Educación e Ordenación Universitaria da Xunta de Galicia.\n
+    </string>
+    <string name="horarios_centro">
+        Horarios del centro\n
+        Lunes a Viernes: 8:30 - 21:00
+    </string>
+    <string name="title_activity_oferta__educativa">Oferta Educativa</string>
+
+
+    <!--Strings activity oferta educativa-->
+    <string-array name="array_smr_texto">
+        <item>Ciclo Medio de Sistemas Microinformáticos e Redes.\n\n</item>
+        <item>\tMódulos do primeiro ano\n</item>
+        <item>\tMódulos 	\t\tHoras\n</item>
+        <item>\tMontaxe en matemento de equipamentos 	\t240\n</item>
+        <item>\tSistemas operativos monoposto 	160\n</item>
+        <item>\tAplicacións ofimáticas 	240\n</item>
+        <item>\tRedes locais 	213\n</item>
+        <item>\tFOL 	107\n\n</item>
+        <item>\tMódulos do segundo ano\n</item>
+        <item>\tMódulos 	Horas\n</item>
+        <item>\tSistemas operativos en rede 	157\n</item>
+        <item>\tSeguridade informática 	140\n</item>
+        <item>\tServizos en rede 	157\n</item>
+        <item>\tAplicacións web 	123\n</item>
+        <item>\tEmpresa e iniciativa emprendedora 	53\n</item>
+        <item>\tFormación en centros de traballo\n</item>
+    </string-array>
+    <string-array name="array_asir_presencial">
+        <item>Ciclo Superior de Administración de Sistemas Informáticos en Rede\n\n</item>
+        <item>\tMódulos do primeiro ano\n</item>
+        <item>\tMódulos 	Horas\n</item>
+        <item>\tImplantación de sistemas operativos 	213\n</item>
+        <item>\tPlanificación e administración de redes 	213\n</item>
+        <item>\tFundamentos de hardware 	107\n</item>
+        <item>\tXestión de bases de datos 	187\n</item>
+        <item>\tLinguaxes de marcas e sistemas de xestión de información 	133\n</item>
+        <item>\tFormación e orientación laboral 	107\n\n</item>
+        <item>\tMódulos do segundo ano\n</item>
+        <item>\tMódulos 	Horas\n</item>
+        <item>\tAdministración de sistemas operativos 	140\n</item>
+        <item>\tServizos de rede e internet 	140\n</item>
+        <item>\tImplantación de aplicacións web 	122\n</item>
+        <item>\tAdministración de sistemas xestores de bases de datos 	70\n</item>
+        <item>\tSeguridade e alta dispoñibilidade 	105\n</item>
+        <item>\tEmpresa e iniciativa emprendedora 	53\n</item>
+        <item>\tProxecto de administración de sistemas informáticos en rede 	26\n</item>
+        <item>\tFormación en centros de traballo\n</item>
+    </string-array>
+        <string-array name="array_dam_presencial">
+        <item>Ciclo Superior Desenvolvemento de Aplicacións Multiplataforma\n\n</item>
+            <item>\tMódulos do primeiro ano\n</item>
+            <item>\tMódulos 	Horas\n</item>
+            <item>\tBases de datos 	187\n</item>
+            <item>\tContornos de desenvolvemento 	107\n</item>
+            <item>\tFormación e orientación laboral 	107\n</item>
+            <item>\tLinguaxes de marcas e sistemas de xestión de información 	133\n</item>
+            <item>\tProgramación 	240\n</item>
+            <item>\tSistemas informáticos 	186\n\n</item>
+            <item>\tMódulos do segundo ano\n</item>
+            <item>\tMódulos 	Horas\n</item>
+            <item>\tAcceso a Datos 	157\n</item>
+            <item>\tDesenvolvemento de interfaces 	140\n</item>
+            <item>\tProgramación multimedia e dispositivos móbiles 	123\n</item>
+            <item>\tProgramación de servizos e procesos 	70\n</item>
+            <item>\tSistemas de xestión empresarial 	87\n</item>
+            <item>\tEmpresa e iniciativa emprendedora 	53\n</item>
+            <item>\tProxecto de desenvolvemento de aplicacións multiplataforma 	26\n</item>
+        <item>\tFormación en centros de traballo 	384\n</item>
+    </string-array>
+    <string-array name="array_asir_modular">
+        <item>Ciclo Superior de Administración de Sistemas Informáticos en Rede. Oferta Modular\n\n</item>
+        <item>\tMódulos de primeiro ano\n</item>
+        <item>\tMódulos 	Horas\n</item>
+        <item>\tImplantación de sistemas operativos 	213\n</item>
+        <item>\tPlanificación e administración de redes 	213\n</item>
+        <item>\tFundamentos de hardware 	107\n</item>
+        <item>\tXestión de bases de datos 	187\n</item>
+        <item>\tLinguaxes de marcas e sistemas de xestión de información 	133\n</item>
+        <item>\tFormación e orientación laboral 	107\n\n</item>
+        <item>\tMódulos de segundo ano\n</item>
+        <item>\tMódulos 	Horas\n</item>
+        <item>\tAdministración de sistemas operativos 	140\n</item>
+        <item>\tServizos de rede e internet 	140\n</item>
+        <item>\tImplantación de aplicacións web 	122\n</item>
+        <item>\tAdministración de sistemas xestores de bases de datos 	70\n</item>
+        <item>\tSeguridade e alta dispoñibilidade 	105\n</item>
+        <item>\tEmpresa e iniciativa emprendedora 	53\n\n</item>
+        <item>\tDespois de superados os módulos anteriores\n</item>
+        <item>\tMódulos 	Horas\n</item>
+        <item>\tProxecto de administración de sistemas informáticos en rede 	26\n</item>
+        <item>\tFormación en centros de traballo 	384\n</item>
+    </string-array>
+    <string-array name="array_daw_modular">
+        <item>Ciclo Superior de Desenvolvemento de Aplicacións Web. Oferta Modular\n\n</item>
+        <item>\tMódulos de primeiro ano\n</item>
+        <item>\tMódulos 	Horas\n</item>
+        <item>\tBases de datos 	187\n</item>
+        <item>\tContornos de desenvolvemento 	107\n</item>
+        <item>\tFormación e orientación laboral 	107\n</item>
+        <item>\tLinguaxes de marcas e sistemas de xestión de información 	133\n</item>
+        <item>\tProgramación 	240\n</item>
+        <item>\tSistemas informáticos 	186\n\n</item>
+        <item>\tMódulos de segundo ano\n</item>
+        <item>\tMódulos 	Horas\n</item>
+        <item>\tDesenvolvemento web en contorno cliente 	157\n</item>
+        <item>\tDesenvolvemento web en contorno servidor 	175\n</item>
+        <item>\tDespregamento de aplicacións web 	88\n</item>
+        <item>\tDeseño de interfaces web 	157\n</item>
+        <item>\tEmpresa e iniciativa emprendedora 	53\n\n</item>
+        <item>\tDespois de superados os módulos anteriores\n</item>
+        <item>\tMódulos 	Horas\n</item>
+        <item>\tProxecto de desenvolvemento de aplicacións web 	26\n</item>
+        <item>\tFormación en centros de traballo 	384\n</item>
+    </string-array>
+
+    <string name="url_youtube">"https://www.youtube.com/user/sanclementetv"</string>
+    <string name="url_facebook">"https://gl-es.facebook.com/IES-San-Clemente-372154394748/"</string>
+
+    <string name="title_activity_alumno">Alumno</string>
+    <string name="title_activity_contacto">Contacto</string>
+
+    <string name="api_key">AIzaSyDTsUaYE-9BLYbZSvf2CUnSouF0ut6Qxmk</string>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="presenciales">
+        <item>SMR</item>
+        <item>ASIR</item>
+        <item>DAM</item>
+        <item>ASIR-Modular</item>
+        <item>DAW-Modular</item>
+    </array>
+
+
+</resources>

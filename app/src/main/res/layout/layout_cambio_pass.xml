@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Contraseña nueva"
+        android:gravity="left"
+        android:textColor="@color/wallet_bright_foreground_holo_light"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/et_cambio_pass_primera"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scrollHorizontally="true"
+        android:autoText="false"
+        android:gravity="fill_horizontal"
+        android:textColor="@color/wallet_bright_foreground_holo_light"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Repita la contraseña nueva"
+        android:gravity="left"
+        android:textColor="@color/wallet_bright_foreground_holo_light"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/et_cambio_pass_segunda"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scrollHorizontally="true"
+        android:gravity="fill_horizontal"
+        android:password="true"
+        android:textColor="@color/wallet_bright_foreground_holo_light"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

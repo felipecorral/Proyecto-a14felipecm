@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="es.iessanclemente.a14felipecm.proyecto_a14felipecm.Contacto"
+    tools:showIn="@layout/activity_contacto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_contacto_direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contacto_direccion"/>
+
+        <TextView
+            android:id="@+id/tv_contacto_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contacto_email"/>
+
+
+        <TextView
+            android:id="@+id/tv_contacto_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contacto_telefono"/>
+
+        <TextView
+            android:id="@+id/tv_contacto_fax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contacto_fax"/>
+
+    </LinearLayout>
+
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="es.iessanclemente.a14felipecm.proyecto_a14felipecm.Contacto" />
+
+
+
+</LinearLayout>

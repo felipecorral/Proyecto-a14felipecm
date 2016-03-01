@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.iessanclemente.a14felipecm.proyecto_a14felipecm.Principal">
+
+    <item
+        android:id="@+id/action_youtube"
+        android:orderInCategory="100"
+        android:title="@string/action_youtube"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_facebook"
+        android:orderInCategory="100"
+        android:title="@string/action_facebook"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sair"
+        android:orderInCategory="100"
+        android:title="@string/action_sair"
+        app:showAsAction="never" />
+
+</menu>
